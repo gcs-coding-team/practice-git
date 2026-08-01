@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDoリスト</title>
+  <style>
+    h5 {
+      margin: 0;
+    }
+    textarea {
+      resize: none;
+    }
+    #add-btn {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 10px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>タスク追加</h1>
+    <h5>タイトル</h5>
+  <input type="text" id="task-input" placeholder="例:会議">
+  <br>
+  <h5>メモ</h5>
+    <textarea id="task-notearea" placeholder="例:14時から" rows="5" cols="50"></textarea>
+
+<div style="display: flex; justify-content: flex-end;">
+  <button id="add-btn">追加</button>
+</div>
+  <ul id="task-list"></ul>
+</body>
+</html>

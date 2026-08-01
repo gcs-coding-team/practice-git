@@ -1,0 +1,21 @@
+<head>
+  <meta charset="UTF-8">
+  <title>ToDoリスト</title>
+  <style>
+    h5 {
+      margin: 0;
+    }
+    textarea {
+      resize: none;
+    }
+    #add-btn {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 10px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
