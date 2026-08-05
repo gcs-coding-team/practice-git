@@ -1,0 +1,13 @@
+.square-btn {
+  background-color: silver;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.square-btn:hover {
+  background-color: #3399FF;
+}
